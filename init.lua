@@ -7,3 +7,6 @@ require("mason-lspconfig").setup_handlers({
     require("lspconfig")[server_name].setup({})
   end,
 })
+
+vim.o.cmdheight = 2
+vim.o.laststatus = 3
